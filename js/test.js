@@ -21,8 +21,8 @@ window.addEventListener("load", async function (event) {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90vw;
-    max-width: 1300px;
+    width: 150px;
+    max-width: 150px;
     min-width: 90vw;
     min-height: 80%;
     max-height: 90%;
