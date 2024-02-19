@@ -27,6 +27,7 @@ window.addEventListener("load", async function (event) {
     min-height: 80%;
     max-height: 90%;
     aspect-ratio: 4/3;
+    overflow: hidden;
   }
 
   @media screen and (max-width: 1200px){
