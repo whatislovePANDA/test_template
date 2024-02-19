@@ -21,20 +21,18 @@ window.addEventListener("load", async function (event) {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 150px;
-    max-width: 150px;
-    min-width: 90vw;
+    width: 90vw;
+    max-width: 1300px;
+    min-width: 90%;
     min-height: 80%;
     max-height: 90%;
-    
-    border: 10px solid green;
+    aspect-ratio: 4/3;
   }
 
   @media screen and (max-width: 1200px){
     .smartjeweler_size_wrapper-${smartjeweler_user_id}{
-      max-width: 90px !important;
-      min-width: 90px !important;
-      width: 90px !important;
+      max-width: 90vw;
+      aspect-ratio: none;
     }
 
   }
