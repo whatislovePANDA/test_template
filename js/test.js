@@ -37,6 +37,7 @@ window.addEventListener("load", async function (event) {
   @media screen and (max-width: 768px){
     .smartjeweler_size_wrapper-${smartjeweler_user_id}{
       aspect-ratio: unset;
+      height: 80%;
     }
   }
 
