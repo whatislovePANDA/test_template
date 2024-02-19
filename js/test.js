@@ -26,7 +26,7 @@ window.addEventListener("load", async function (event) {
     min-width: 90vw;
     min-height: 80%;
     max-height: 90%;
-    aspect-ratio: 4/3;
+    
     border: 10px solid green;
   }
 
