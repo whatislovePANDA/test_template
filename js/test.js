@@ -32,9 +32,12 @@ window.addEventListener("load", async function (event) {
   @media screen and (max-width: 1200px){
     .smartjeweler_size_wrapper-${smartjeweler_user_id}{
       max-width: 90vw;
-      aspect-ratio: none;
     }
-
+  }
+  @media screen and (max-width: 768px){
+    .smartjeweler_size_wrapper-${smartjeweler_user_id}{
+      aspect-ratio: unset;
+    }
   }
 
   #smartjeweler_iframe_close_button-${smartjeweler_user_id}{
