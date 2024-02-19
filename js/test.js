@@ -23,7 +23,7 @@ window.addEventListener("load", async function (event) {
     transform: translate(-50%, -50%);
     width: 90vw;
     max-width: 1300px;
-    min-width: 90%;
+    min-width: 90vw;
     min-height: 80%;
     max-height: 90%;
     aspect-ratio: 4/3;
