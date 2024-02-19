@@ -27,12 +27,12 @@ window.addEventListener("load", async function (event) {
     min-height: 80%;
     max-height: 90%;
     aspect-ratio: 4/3;
-    overflow: hidden;
+    border: 10px solid green;
   }
 
   @media screen and (max-width: 1200px){
     .smartjeweler_size_wrapper-${smartjeweler_user_id}{
-      max-width: 90vw;
+      max-width: 90vw !important;
     }
 
   }
