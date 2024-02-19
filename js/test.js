@@ -33,6 +33,8 @@ window.addEventListener("load", async function (event) {
   @media screen and (max-width: 1200px){
     .smartjeweler_size_wrapper-${smartjeweler_user_id}{
       max-width: 90px !important;
+      min-width: 90px !important;
+      width: 90px !important;
     }
 
   }
