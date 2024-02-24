@@ -980,13 +980,13 @@ li.search_icon {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100dvh;
+  height: 100vh;
   width: 100%;
   background: #fe000098;
   z-index: 999999;
 }
 .space{
-  height: 999vh;
+  height: 999%;
   background: turquoise;
   
 }
