@@ -974,7 +974,7 @@ li.search_icon {
   height: 100dvh;
   width: 100%;
   background: #000000a0;
-  z-index: 999999;
+  z-index: 99;
 }
 .test2{
   position: fixed;
@@ -983,7 +983,7 @@ li.search_icon {
   height: 100vh;
   width: 100%;
   background: #fe000098;
-  z-index: 999999;
+  z-index: 99;
 }
 .space{
   height: 999%;
